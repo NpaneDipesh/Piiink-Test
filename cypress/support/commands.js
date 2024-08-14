@@ -53,15 +53,15 @@ Cypress.Commands.add('CountryAdminLogin', () => {
   });
 
   Cypress.Commands.add('ROlogin', () => {
-    cy.visit('https://dashboard.dev.piiink.org/signin/region-owner', { failOnStatusCode: false });
-    cy.get("#\\:r0\\:").click().type("sushial@mailinator.com");
+    cy.visit('https://dashboard.dev.piiink.org/signin/region-licensee', { failOnStatusCode: false });
+    cy.get("#\\:r0\\:").click().type("bundaberg-region@mailinator.com");
     cy.get("#\\:r1\\:").click().type("12345678");
     cy.get(':nth-child(4) > .MuiButtonBase-root').click();
   });
 
   Cypress.Commands.add('AOlogin', () => {
-    cy.visit('https://dashboard.dev.piiink.org/signin/area-owner', { failOnStatusCode: false });
-    cy.get("#\\:r0\\:").click().type("pappu@mailinator.com");
+    cy.visit('https://dashboard.dev.piiink.org/signin/area-licensee', { failOnStatusCode: false });
+    cy.get("#\\:r0\\:").click().type("gippsland@mailinator.com");
     cy.get("#\\:r1\\:").click().type("12345678");
     cy.get(':nth-child(4) > .MuiButtonBase-root').click();
   });
