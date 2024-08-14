@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "scripts": {
+    "html-report": "cypress run --spec <>.js --browser chrome --headed"
+  }
+}
