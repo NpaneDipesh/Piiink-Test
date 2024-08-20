@@ -10,7 +10,7 @@ describe("GenerateIssuerCode", () => {
         cy.get('.css-19kzrtu > .MuiGrid-container > :nth-child(1) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > #combo-box-demo').click();
         cy.get('#combo-box-demo-option-66').click();
         cy.get('#\\:rh\\:').click();
-        cy.get('#\\:rh\\:').type('iseggfde');
+        cy.get('#\\:rh\\:').type('isedvbfde');
         cy.get('#\\:ri\\:').click();
         cy.get('#\\:ri\\:').type('22');
         cy.get('.css-1q6cjye > .MuiButton-text').click();
